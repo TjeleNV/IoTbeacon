@@ -55,7 +55,7 @@ function refreshDeviceList(){
 
 function onDiscoverDevice(device){
 	//Make a list in html and show devises
-	if(device.name == "STATUE"){
+	if(device.name == "GruppeIoT"){
 		
 		var listItem = document.createElement('li'),
 		html = device.name+ "," + device.id;
@@ -84,7 +84,7 @@ function onError(reason)  {
 
 
 function test(){
-	var url='https://placering.000webhostapp.com';	
+	var url='https://gruppeiot.000webhostapp.com/';	
 	openBrowser(url);
 }
 
